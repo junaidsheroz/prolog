@@ -23,4 +23,4 @@ grandfather(GF,C) :- male(GF),parent(GF,M),parent(M,C).
 grandmother(GM,C) :-female(GM),parent(GM,M),parent(M,C).
 brother(B,S) :- male(B),parent(P,B),parent(P,S).
 sister(S,B) :-female(S),parent(P,S),parent(P,B).
-
+helollo.
